@@ -1,0 +1,41 @@
+{
+  "name": "sprint-retro-collaboration-board",
+  "version": "1.0.0",
+  "description": "Team collaboration board for Sprint Retrospectives (What Went Well, What Didn't) and Action Item tracking, ready for Render deployment.",
+  "main": "server/server.js",
+  "scripts": {
+    "dev": "vite",
+    "server": "node server/server.js",
+    "build": "vite build",
+    "start": "node server/server.js",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "agile",
+    "sprint",
+    "retrospective",
+    "action-items",
+    "collaboration",
+    "render"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "canvas-confetti": "^1.9.4",
+    "lucide-react": "^0.475.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite": "^6.1.0"
+  }
+}
